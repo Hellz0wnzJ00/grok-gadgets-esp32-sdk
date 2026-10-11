@@ -1,6 +1,7 @@
 # Use the library in another gadget
 
-The C124 sketch and `examples/led-button` both use `grok::Gadget`. A second board still needs its own pins, a PlatformIO environment, and its own hardware check. This library has no Wi-Fi transport and no hosted service. The gateway device port stays on loopback. See the [hosting FAQ](https://github.com/adidshaft/grok-gadgets/blob/main/docs/getting-started/hosting.md).
+The [ordered OLED kit](first-experiment.md) is the first physical experiment. Its
+pins, display controller and firmware profile remain provisional. The optional C124 sketch and `examples/led-button` both use `grok::Gadget`. A second board still needs its own pins, a PlatformIO environment, and its own hardware check. This library has no Wi-Fi transport and no hosted service. The gateway device port stays on loopback. See the [hosting FAQ](https://github.com/adidshaft/grok-gadgets/blob/main/docs/getting-started/hosting.md).
 
 | Header | Purpose |
 | --- | --- |
